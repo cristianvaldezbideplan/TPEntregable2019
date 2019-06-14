@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CondicionServicioGoogle">
+
+    <ImageView
+        android:id="@+id/imageView2_fondo4"
+        android:layout_width="828dp"
+        android:layout_height="744dp"
+        android:layout_marginTop="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pantalla_1" />
+
+    <Button
+        android:id="@+id/button2_AceptarGoogle"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/boton_redondo"
+        android:onClick="AceptarCondicion"
+        android:text="Aceptar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="363dp"
+        android:layout_height="281dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="246dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2_fondo4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2_fondo4">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="360dp"
+            android:layout_height="343dp"
+
+            android:text="CONDICIONES DEL SERVICIO DE GOOGLE Última modificación: 25 de octubre de 2017 (ver versiones archivadas)  ¡Bienvenido a Google! Gracias por utilizar nuestros productos y servicios (“Servicios”). Los Servicios son proporcionados por Google LLC (“Google”), ubicado en 1600 Amphitheatre Parkway, Mountain View, CA 94043, Estados Unidos.  Mediante la utilización de nuestros Servicios usted está aceptando estas condiciones. Por favor, léalas detenidamente.  Nuestros Servicios son muy diversos, de modo que en ocasiones podrían ser aplicables condiciones adicionales u otros requisitos (incluidos los requisitos de edad). Las condiciones adicionales estarán disponibles junto con los Servicios pertinentes y formarán parte de su contrato con nosotros al utilizar tales Servicios.  Uso de nuestros Servicios Debe seguir las políticas disponibles para usted dentro de los Servicios.  No utilice nuestros Servicios de forma indebida. Por ejemplo, no interfiera en nuestros Servicios ni intente acceder a ellos por otro método diferente a la interfaz y las instrucciones que le proporcionamos. Puede utilizar nuestros Servicios solo como se permite por ley, incluidas las leyes y regulaciones correspondientes de control de exportación y reexportación. Podremos suspender o dejar de proveerle nuestros Servicios si usted incumple nuestras condiciones o políticas o si estamos investigando una presunta conducta indebida.  El uso de nuestros Servicios no otorga derecho de propiedad intelectual alguno sobre nuestros Servicios o contenido al que acceda. No podrá utilizar el contenido de nuestros Servicios a menos que obtenga el permiso de su propietario o que ello esté permitido por ley. Estas condiciones no le otorgan el derecho de utilizar marca o logotipo alguno utilizado en nuestros Servicios. No elimine, oculte ni modifique ningún aviso legal mostrado en nuestros Servicios o junto a ellos.  Nuestros Servicios muestran cierto contenido que no pertenece a Google. Dicho contenido es responsabilidad exclusiva de la entidad que lo pone a disposición. Podremos revisar contenido para determinar si es ilegal o si infringe nuestras políticas, y podremos eliminar o rechazar la visualización de contenido que razonablemente consideremos que infringe nuestras políticas o la ley. Sin embargo, esto no significa que revisemos contenido, por lo que no debe suponer que lo haremos.  En relación con su uso de los Servicios, podremos enviarle anuncios del servicio, mensajes administrativos y otra información. Usted podrá rechazar algunas de dichas comunicaciones.  Algunos de nuestros Servicios están disponibles en dispositivos móviles. No utilice estos Servicios de un modo que pueda distraerlo y que le impida cumplir con las leyes de tránsito o seguridad.  Su cuenta de Google En algunos casos es necesario crear una cuenta de Google para utilizar algunos de nuestros Servicios. Usted podrá crear su propia cuenta de Google o un administrador, por ejemplo, su empleador o institución educativa, podrá asignarle su cuenta de Google. Si utiliza una cuenta de Google asignada por un administrador, se podrán aplicar condiciones diferentes o adicionales y su administrador podrá acceder o inhabilitar su cuenta.  Para proteger su cuenta de Google, mantenga la confidencialidad de su contraseña. Usted es responsable de la actividad que se desarrolle en su cuenta de Google o a través de ella. Intente no reutilizar la contraseña de su cuenta de Google en aplicaciones de terceros. Si detecta un uso no autorizado de su cuenta de Google o de su contraseña, siga estas instrucciones.  Privacidad y Protección de derechos de autor En las políticas de privacidad de Google se explica el modo en que tratamos sus datos personales y protegemos su privacidad cuando utiliza nuestros Servicios. Al utilizar nuestros Servicios, usted acepta que Google puede utilizar dichos datos de acuerdo con nuestras políticas de privacidad.  Respondemos a las notificaciones de presuntas infracciones a los derechos de autor y cerramos las cuentas de los infractores reincidentes de acuerdo con el proceso establecido en la ley estadounidense de protección de los derechos de autor (U.S. Digital Millennium Copyright Act).  Proporcionamos información para ayudar a que los titulares de derechos de autor administren su propiedad intelectual en línea. Si usted piensa que alguien está infringiendo sus derechos de autor y desea notificarnos este hecho, encontrará en nuestro Centro de asistencia información sobre cómo enviar notificaciones y sobre la política de Google sobre respuestas a notificaciones.  Su contenido en nuestros Servicios Algunos de nuestros Servicios le permiten subir, almacenar, enviar o recibir contenido. Usted conservará los derechos de propiedad intelectual que posea sobre dicho contenido. En resumen, lo que le pertenece a usted, continúa siendo suyo.  Cuando suba, ingrese, almacene, envíe o reciba contenido a nuestros Servicios o a través de ellos, otorgará a Google (y a aquellos con quienes trabajamos) una licencia internacional para utilizar, alojar, almacenar, reproducir, modificar, crear obras derivadas (como las traducciones, adaptaciones o modificaciones que hacemos para que su contenido funcione mejor con nuestros Servicios), comunicar, publicar, ejecutar públicamente y distribuir dicho contenido. Los derechos que usted otorga en esta licencia son para el objetivo limitado de operar, promocionar y mejorar nuestros Servicios, y para desarrollar otros nuevos. Esta licencia subsistirá aún cuando usted deje de utilizar nuestros Servicios (por ejemplo, de una empresa que usted haya agregado a Google Maps). Algunos Servicios pueden ofrecerle distintas maneras de acceder y eliminar contenido que se haya proporcionado para ese Servicio. Además, en algunos de nuestros Servicios, hay condiciones o parámetros de configuración que limitan el alcance de nuestro uso del contenido provisto en aquellos Servicios. Asegúrese de tener los derechos necesarios para otorgarnos esta licencia para cualquier contenido que envíe a nuestros Servicios.  Nuestros sistemas automatizados analizan el contenido (incluidos los correos electrónicos) para proporcionarle funciones de productos que sean relevantes para usted, como la publicación de anuncios y resultados de búsqueda personalizados y la detección de spam y software malicioso. Este análisis se realiza mientras el contenido se envía, recibe y cuando se almacena.  Si tiene una cuenta de Google, es posible que mostremos su nombre de Perfil, su foto de Perfil y las acciones que realiza en Google o en aplicaciones de terceros conectadas a su cuenta de Google (como los +1 que hace, las opiniones que escribe y los comentarios que publica) en nuestros Servicios, incluida la aparición en anuncios y otros contextos comerciales. Respetaremos las decisiones que tome para limitar la configuración del uso compartido o del nivel de visibilidad en su cuenta de Google. Por ejemplo, puede configurar su cuenta de manera que su nombre y su foto no aparezcan en un anuncio.  Usted puede encontrar más información sobre el modo en que Google utiliza y almacena contenido en la política de privacidad o en las condiciones adicionales de Servicios específicos. Si usted envía comentarios o sugerencias sobre nuestros Servicios, podremos utilizarlos sin ninguna obligación hacia usted.  Acerca del software en nuestros Servicios Cuando un Servicio requiere o incluye software descargable, este software podrá actualizarse automáticamente en su dispositivo cuando haya una nueva versión o función disponible. Algunos Servicios pueden permitirle predeterminar sus configuraciones de actualización automática.  Google le proporciona una licencia personal, internacional, sin regalías, no cesible y no exclusiva para utilizar el software que Google le proporcionó como parte de los Servicios. La licencia se proporciona al solo efecto de permitirle utilizar y disfrutar el beneficio de los Servicios según los proporciona Google y tal como se estipula en las presentes condiciones. Usted no podrá copiar, modificar, distribuir, vender ni otorgar licencia de parte alguna de nuestros Servicios o el software incluido, ni podrá realizar ingeniería inversa o intentar extraer el código fuente de dicho software, salvo que estas restricciones estuvieren prohibidas por ley o que usted hubiere obtenido nuestro permiso escrito.  El software de código abierto es importante para nosotros. Parte del software utilizado en nuestros Servicios puede ofrecerse bajo una licencia de código abierto que pondremos a su disposición. Es posible que algunas de las disposiciones de la licencia de código abierto anulen expresamente algunas de estas condiciones.  Modificación y cancelación de nuestros Servicios Cambiamos y mejoramos continuamente nuestros Servicios. Podemos agregar o eliminar funcionalidades o características, y también suspender o interrumpir un Servicio en su totalidad.  Usted puede dejar de utilizar nuestros Servicios en cualquier momento, aunque lamentaríamos que lo hiciera. Google también puede dejar de brindarle los Servicios, o agregar o crear nuevos límites a nuestros Servicios en cualquier momento.  Consideramos que usted es propietario de sus datos y que preservar su acceso a dichos datos es importante. Si cancelamos un Servicio, y siempre que ello fuere razonablemente posible, le notificaremos con una anticipación razonable y le brindaremos la posibilidad de obtener información bajo ese Servicio.  Nuestras garantías y exenciones de responsabilidad Proporcionamos nuestros Servicios con un nivel comercialmente razonable de competencia y cuidado, y esperamos que disfrute de dichos Servicios. Pero existen ciertas cosas que no prometemos sobre nuestros Servicios.  Excepto por lo que se establece expresamente en estas condiciones o en condiciones adicionales, ni Google ni sus proveedores o distribuidores realizan promesa alguna específica sobre los Servicios. Por ejemplo, no asumimos ningún compromiso respecto al contenido dentro de los Servicios o las funciones específicas de los Servicios, ni la confiabilidad, disponibilidad o capacidad para satisfacer sus necesidades. Proporcionamos los Servicios “tal como están”.  En algunas jurisdicciones se prevén determinadas garantías, por ejemplo, la garantía implícita de comerciabilidad, adecuación para algún propósito y no infracción de derechos. En la medida permitida por ley, excluimos todas las garantías.  Responsabilidad por nuestros Servicios Si la ley lo permite, Google y sus proveedores y distribuidores no serán responsables por lucro cesante, pérdida de ganancias, de datos o financieras, ni por daños indirectos, especiales, emergentes, ejemplares o punitorios.  En la medida permitida por ley, la responsabilidad total de Google y de sus proveedores y distribuidores por cualquier reclamo en virtud de las presentes condiciones, incluida cualquier garantía implícita, estará limitada al monto abonado por usted para utilizar los Servicios (o a proveerle los Servicios nuevamente, si así lo elegimos).  En ningún caso Google y sus proveedores y distribuidores serán responsables por pérdidas o daños que no sean razonablemente previsibles.  Google reconoce que en algunos países usted podría tener derechos reconocidos por ley que le correspondan como consumidor. Si usted utiliza los Servicios para fines personales, ninguna de las disposiciones incluidas en las presentes condiciones o en condiciones adicionales limitará ningún derecho legal como consumidor al que no pueda renunciarse contractualmente.  Usos comerciales de nuestros Servicios Si usa nuestros Servicios en nombre de una empresa, esa empresa acepta las siguientes condiciones. La empresa mantendrá indemne e indemnizará a Google y a sus afiliadas, directores, agentes y empleados de cualquier reclamo, pleito o acción relativa al uso de estos Servicios o incumplimiento de estas condiciones, incluido cualquier costo o responsabilidad que surja de reclamos, pérdidas, daños, pleitos, fallos, costos de litigio y honorarios de abogados.  Acerca de estas Condiciones Podremos modificar las presentes condiciones o las condiciones adicionales aplicables a un Servicio para, por ejemplo, reflejar cambios en las leyes o en nuestros Servicios. Usted debe revisar las condiciones periódicamente. Publicaremos avisos sobre las modificaciones a estos términos en esta página. Publicaremos avisos sobre las condiciones adicionales modificadas, en el Servicio correspondiente. Las modificaciones no se aplicarán retroactivamente y entrarán en vigencia no antes de catorce días después de su publicación. Sin embargo, las modificaciones que reflejan nuevas funciones de un Servicio o las modificaciones realizadas por razones legales entrarán en vigencia de forma inmediata. Si no acepta las condiciones modificadas en un Servicio, debería cancelar el uso de dicho Servicio.  En caso de haber un conflicto entre estas condiciones y las condiciones adicionales, las condiciones adicionales prevalecerán en todo lo relativo a ese conflicto.  Estas condiciones gobiernan la relación entre Google y usted, y no generan ningún tipo de derechos a favor de terceros.  Si usted no cumple estas condiciones, y nosotros no tomamos acción inmediata, ello no implica renuncia alguna a cualquier derecho que pudiera correspondernos (como iniciar una acción en el futuro).  Si cualquier disposición de estas condiciones resultare inejecutable, ello no afectará la validez del resto de las condiciones.  Los tribunales de algunos países no aplicarán las leyes de California a cierto tipo de controversias. Si usted reside en alguno de esos países, las leyes de su país serán aplicables para dichas controversias en los casos en que las leyes de California queden excluidas en relación con las presentes condiciones. De lo contrario, usted acepta que las leyes de California, EE.UU., excluyendo los conflictos de leyes de California, se aplicarán a cualquier controversia que surja o se relacione con las presentes condiciones o los Servicios. Asimismo, si los tribunales de su país no permiten que usted se someta a la competencia y jurisdicción de los tribunales del Condado de Santa Clara, California, EE.UU., entonces se aplicará la competencia y jurisdicción locales a dichas controversias relacionadas con las presentes condiciones. De lo contrario, todos los reclamos que surjan o se relacionen con las presentes condiciones o los servicios se deberán presentar exclusivamente en los tribunales federales o estatales del Condado de Santa Clara, California, EE.UU., y usted y Google aceptan someterse a la jurisdicción personal de dichos tribunales.  Para obtener información sobre cómo comunicarse con Google, visite nuestra página de contacto."
+            android:textColor="@android:color/background_light"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2_fondo4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2_fondo4" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="270dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="279dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="208dp"
+        android:background="@color/button2_Registrar"
+        android:gravity="center|start"
+        android:text="            Acepto los Terminos y Condiciones"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2_fondo4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2_fondo4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView2_fondo4"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="519dp"
+        android:layout_marginBottom="158dp"
+        android:background="@drawable/boton_redondo"
+        android:gravity="center"
+        android:text="CheckBox"
+        android:textColor="@color/button2_Registrar"
+        android:textColorHighlight="@color/button2_Registrar"
+        android:textColorHint="@color/button2_Registrar"
+        android:textColorLink="@color/button2_Registrar"
+        android:textCursorDrawable="@color/button2_Registrar"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2_fondo4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2_fondo4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView2_fondo4"
+        app:layout_constraintTop_toTopOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>
+
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgramadorOSitioWed">
+
+    <ImageView
+        android:id="@+id/imageView_Fondo6"
+        android:layout_width="577dp"
+        android:layout_height="747dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pantalla_1" />
+
+    <ImageView
+        android:id="@+id/imageView5_FondoTrans2"
+        android:layout_width="370dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="182dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_Fondo6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_Fondo6"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Fondo6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4_fondoTrans1"
+        app:srcCompat="@color/button2_Registrar" />
+
+    <ImageView
+        android:id="@+id/imageView4_fondoTrans1"
+        android:layout_width="371dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="374dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_Fondo6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_Fondo6"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Fondo6"
+        app:layout_constraintTop_toTopOf="@+id/imageView_Fondo6"
+        app:srcCompat="@color/button2_Registrar" />
+
+    <ImageView
+        android:id="@+id/imageView2_Icono1"
+        android:layout_width="102dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4_fondoTrans1"
+        app:layout_constraintEnd_toStartOf="@+id/textView_TextoProgramador"
+        app:layout_constraintStart_toStartOf="@+id/imageView4_fondoTrans1"
+        app:layout_constraintTop_toTopOf="@+id/imageView_Fondo6"
+        app:srcCompat="@drawable/imagen_4" />
+
+    <ImageView
+        android:id="@+id/imageView3_Icono2"
+        android:layout_width="102dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="54dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5_FondoTrans2"
+        app:layout_constraintEnd_toStartOf="@+id/textView_TextoSitioWed"
+        app:layout_constraintStart_toStartOf="@+id/imageView5_FondoTrans2"
+        app:layout_constraintTop_toTopOf="@+id/imageView5_FondoTrans2"
+        app:srcCompat="@drawable/website_icon" />
+
+    <Button
+        android:id="@+id/button_Programador"
+        android:layout_width="109dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/boton_redondo"
+        android:onClick="Programador"
+        android:text="Programador"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4_fondoTrans1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4_fondoTrans1"
+        app:layout_constraintStart_toStartOf="@+id/imageView4_fondoTrans1"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TextoProgramador" />
+
+    <Button
+        android:id="@+id/button2_SitioWed"
+        android:layout_width="109dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/boton_redondo"
+        android:onClick="SitioWeb"
+        android:text="Sitio Web"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5_FondoTrans2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5_FondoTrans2"
+        app:layout_constraintStart_toStartOf="@+id/imageView5_FondoTrans2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TextoSitioWed" />
+
+    <TextView
+        android:id="@+id/textView_TextoProgramador"
+        android:layout_width="240dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="64dp"
+        android:text="Información Personal del Desarrollador  de la Aplicación."
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4_fondoTrans1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_Fondo6"
+        app:layout_constraintStart_toStartOf="@+id/imageView4_fondoTrans1"
+        app:layout_constraintTop_toTopOf="@+id/imageView4_fondoTrans1" />
+
+    <TextView
+        android:id="@+id/textView_TextoSitioWed"
+        android:layout_width="240dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="72dp"
+        android:text="Pagina Web de la Empresa u Org. elegida por el Desarrollador de la  Aplicación."
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5_FondoTrans2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5_FondoTrans2"
+        app:layout_constraintStart_toStartOf="@+id/imageView5_FondoTrans2"
+        app:layout_constraintTop_toTopOf="@+id/imageView5_FondoTrans2" />
+
+</android.support.constraint.ConstraintLayout>

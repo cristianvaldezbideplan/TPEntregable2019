@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Usuario_Decision">
+
+    <ImageView
+        android:id="@+id/imageView_Fondo"
+        android:layout_width="0dp"
+        android:layout_height="744dp"
+        android:layout_marginTop="130dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503"
+        app:srcCompat="@drawable/decisionoriginal" />
+
+    <Button
+        android:id="@+id/button_ingresar"
+        android:layout_width="94dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/boton_redondo"
+        android:onClick="sendMessage"
+        android:text="Ingresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2_Registrar"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button2_Registrar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2_Registrar"
+        android:layout_width="94dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/boton_redondo"
+        android:onClick="Registrarse"
+        android:text="Registrar"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_Fondo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView_Fondo"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

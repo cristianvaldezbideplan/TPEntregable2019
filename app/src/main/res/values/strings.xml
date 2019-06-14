@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TPEntregable2019</string>
+    <string name="button_inicial">Button</string>
+    <string name="button_ingresar">Ingresar</string>
+    <string name="button2_Registrar">Registrar</string>
+    <string name="button_IngresarLogin">Ingresar</string>
+    <string name="todo">Todo</string>
+</resources>

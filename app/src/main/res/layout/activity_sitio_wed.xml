@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SitioWed">
+
+    <ImageView
+        android:id="@+id/imageView_Fondo8"
+        android:layout_width="607dp"
+        android:layout_height="759dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pantalla_1" />
+
+    <ImageView
+        android:id="@+id/imageView6_FondoTransp9"
+        android:layout_width="364dp"
+        android:layout_height="252dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_DirectoSitioWeb"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_Fondo8"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Fondo8"
+        app:layout_constraintTop_toTopOf="@+id/imageView_Fondo8"
+        app:srcCompat="@color/button2_Registrar" />
+
+    <ImageView
+        android:id="@+id/imageView5_LogoRazer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2_TextoRazer"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6_FondoTransp9"
+        app:layout_constraintStart_toStartOf="@+id/imageView6_FondoTransp9"
+        app:layout_constraintTop_toTopOf="@+id/imageView6_FondoTransp9"
+        app:srcCompat="@drawable/captura10" />
+
+    <ImageView
+        android:id="@+id/imageView11_BotonVolver2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="481dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/boton_redondo"
+        android:onClick="AtrasDecision2"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Titulo"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_Fondo8"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Fondo8"
+        app:layout_constraintTop_toTopOf="@+id/imageView_Fondo8"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/textView_Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="14dp"
+        android:text="Sitio Web"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6_FondoTransp9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_Fondo8"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Fondo8"
+        app:layout_constraintTop_toTopOf="@+id/imageView_Fondo8" />
+
+    <TextView
+        android:id="@+id/textView2_TextoRazer"
+        android:layout_width="322dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="23dp"
+        android:gravity="center"
+        android:text="Razer Inc., es una compañía global de  fabricación de hardware para juegos  establecida en 2005"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6_FondoTransp9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6_FondoTransp9"
+        app:layout_constraintStart_toStartOf="@+id/imageView6_FondoTransp9"
+        app:layout_constraintTop_toTopOf="@+id/imageView6_FondoTransp9" />
+
+    <Button
+        android:id="@+id/button_DirectoSitioWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="257dp"
+        android:layout_marginTop="537dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="173dp"
+        android:background="@drawable/boton_redondo"
+        android:onClick="SitioWed"
+        android:text="Sitio Web"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_Fondo8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_Fondo8"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Fondo8"
+        app:layout_constraintTop_toTopOf="@+id/imageView_Fondo8" />
+
+</android.support.constraint.ConstraintLayout>
